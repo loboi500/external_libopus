@@ -1,10 +1,57 @@
 .gitignore		export-ignore
 .gitattributes		export-ignore
-
-update_version		export-ignore
-
+update_version filter=lfs diff=lfs merge=lfs -text
 *.bat eol=crlf
 *.sln eol=crlf
 *.vcxproj eol=crlf
 *.vcxproj.filters eol=crlf
 common.props eol=crlf
+Makefile.am filter=lfs diff=lfs merge=lfs -text
+opus.m4 filter=lfs diff=lfs merge=lfs -text
+opus.pc.in filter=lfs diff=lfs merge=lfs -text
+opus-uninstalled.pc.in filter=lfs diff=lfs merge=lfs -text
+PREUPLOAD.cfg filter=lfs diff=lfs merge=lfs -text
+AUTHORS filter=lfs diff=lfs merge=lfs -text
+CleanSpec.mk filter=lfs diff=lfs merge=lfs -text
+COPYING filter=lfs diff=lfs merge=lfs -text
+scripts filter=lfs diff=lfs merge=lfs -text
+win32 filter=lfs diff=lfs merge=lfs -text
+Makefile.unix filter=lfs diff=lfs merge=lfs -text
+opus_headers.mk filter=lfs diff=lfs merge=lfs -text
+training filter=lfs diff=lfs merge=lfs -text
+celt filter=lfs diff=lfs merge=lfs -text
+CMakeLists.txt filter=lfs diff=lfs merge=lfs -text
+Makefile.mips filter=lfs diff=lfs merge=lfs -text
+MODULE_LICENSE_BSD filter=lfs diff=lfs merge=lfs -text
+celt_sources.mk filter=lfs diff=lfs merge=lfs -text
+LICENSE_PLEASE_READ.txt filter=lfs diff=lfs merge=lfs -text
+meson_options.txt filter=lfs diff=lfs merge=lfs -text
+cmake filter=lfs diff=lfs merge=lfs -text
+README.version filter=lfs diff=lfs merge=lfs -text
+silk_sources.mk filter=lfs diff=lfs merge=lfs -text
+include filter=lfs diff=lfs merge=lfs -text
+meson.build filter=lfs diff=lfs merge=lfs -text
+NOTICE filter=lfs diff=lfs merge=lfs -text
+README.android filter=lfs diff=lfs merge=lfs -text
+releases.sha2 filter=lfs diff=lfs merge=lfs -text
+autogen.sh filter=lfs diff=lfs merge=lfs -text
+celt_headers.mk filter=lfs diff=lfs merge=lfs -text
+ChangeLog filter=lfs diff=lfs merge=lfs -text
+libopus_blocklist.txt filter=lfs diff=lfs merge=lfs -text
+meson filter=lfs diff=lfs merge=lfs -text
+NEWS filter=lfs diff=lfs merge=lfs -text
+opus_sources.mk filter=lfs diff=lfs merge=lfs -text
+Android.bp filter=lfs diff=lfs merge=lfs -text
+convert_android_asm.sh filter=lfs diff=lfs merge=lfs -text
+doc filter=lfs diff=lfs merge=lfs -text
+README filter=lfs diff=lfs merge=lfs -text
+silk filter=lfs diff=lfs merge=lfs -text
+src filter=lfs diff=lfs merge=lfs -text
+METADATA filter=lfs diff=lfs merge=lfs -text
+OWNERS filter=lfs diff=lfs merge=lfs -text
+README.draft filter=lfs diff=lfs merge=lfs -text
+silk_headers.mk filter=lfs diff=lfs merge=lfs -text
+tests filter=lfs diff=lfs merge=lfs -text
+configure.ac filter=lfs diff=lfs merge=lfs -text
+fuzzer filter=lfs diff=lfs merge=lfs -text
+m4 filter=lfs diff=lfs merge=lfs -text

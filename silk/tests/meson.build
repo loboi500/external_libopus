@@ -1,8 +1,3 @@
-exe = executable('test_unit_LPC_inv_pred_gain',
-  'test_unit_LPC_inv_pred_gain.c', '../LPC_inv_pred_gain.c',
-  include_directories: opus_includes,
-  link_with: [celt_lib, celt_static_libs, silk_lib, silk_static_libs],
-  dependencies: libm,
-  install: false)
-
-test(test_name, exe)
+version https://git-lfs.github.com/spec/v1
+oid sha256:22082a0769b5156f2c4d2a6d53dd63b9ef152ddeb2d68a1b36319f88e7e771a9
+size 280

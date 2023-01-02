@@ -1,7 +1,3 @@
-This commit is upto-date with following the commit in upstream-master
-Branch: upstream-master
-commit: b83dd52868326a401c8578041e3dbea439d53f11
-
-upstream-master is in sync with upstream project at
-URL: https://gitlab.xiph.org/xiph/opus.git
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:75007c5835fdce85955a350f96cd150e4f4d2d5c3a8b20aa7ee12ee9731cf753
+size 240
